@@ -1,0 +1,30 @@
+<h3>Introducing</h3>
+<p style="text-align: justify;">In 2002, John Burrows introduced a simple but
+  surprisingly accurate method for authorship attribution, the so-called <i>Delta
+  procedure</i>. Using relative frequencies of the most common words, it becomes
+  possible to compare a set of texts and obtain sufficiently precise information
+  on the most likely author of a text. Quoting Burrows’
+  <a href="https://doi.org/10.1093/llc/17.3.267">original paper</a>, “the object
+  is to treat all of these [most common] words as markers of potentially equal
+  power in highlighting the differences between one style and another” (Burrows
+  2002, 271).</p>
+
+<br>
+
+<h3>About this application</h3>
+<p style="text-align: justify;">Research on <i>Delta</i>, and authorship attribution in
+  general, has become a popular topic in Digital Humanities. As a result, multiple
+  variants of distance measures have been developed and evaluated
+  (<a href="https://doi.org/10.1093/llc/fqx023">Evert et al.</a> give a nice overview).
+  Eight of them have been ported to a R package called <code>stylo</code>
+  (<a href="https://journal.r-project.org/archive/2016/RJ-2016-007/index.html">Eder,
+  Rybicki, Kestemont, 2016</a>). Starting with <i>low-level</i> programming from
+  inside the R console, <code>stylo</code> also provides a <i>high-level</i> GUI
+  to produce <b>static</b> visualizations of the analysis (basically the results of
+  statistical procedures on the distance scores, e.g.
+  <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal Component
+  Analysis</a> (PCA) and <a href="https://en.wikipedia.org/wiki/Hierarchical_clustering">hierarchical
+  clustering</a>).</p>
+<p style="text-align: justify;">This application builds on top of the low-level functions
+  of <code>stylo</code>, and empowers users to explore results of a stylometric
+  analysis <b>interactively</b>, which is currently not possible with the package itself.</p>
