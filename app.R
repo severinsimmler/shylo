@@ -1,7 +1,6 @@
 #!/usr/bin/env Rscript
 
 library(shiny)
-library(markdown)
 library(stylo)
 library(explor)
 library(scatterD3)
