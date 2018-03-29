@@ -14,3 +14,10 @@ install.packages("scatterD3")
 install.packages("ggiraph")
 install.packages("networkD3")
 ```
+## Getting Started
+
+To start the application, run the file `app.R` in the R environment or use the following line in a command-line:
+
+```
+Rscript app.R
+```
