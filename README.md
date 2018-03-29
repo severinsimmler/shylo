@@ -2,6 +2,8 @@
 
 This application builds on top of the R package [`stylo`](https://github.com/computationalstylistics/stylo), and provides interactive visualizations of the output of the distance matrix produced by `stylo`.
 
+![UI](screenshot.png)
+
 ## Requirements
 
 To install the requirements, copy + paste the following lines into an R environment:
