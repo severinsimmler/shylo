@@ -4,7 +4,7 @@ This application builds on top of the R package [`stylo`](https://github.com/com
 
 ![UI](docs/screenshot.png)
 
-You can access Shylo without installation right from your browser following [this link](https://severinsimmler.shinyapps.io/shylo/).
+> You can access Shylo without installation right from your browser following [this link](https://severinsimmler.shinyapps.io/shylo/).
 
 ## Requirements
 To install the requirements, copy + paste the following lines into an R environment:
