@@ -1,6 +1,6 @@
 # A Shiny GUI for Stylo
 
-This application builds on top of the R package [`stylo`](https://github.com/computationalstylistics/stylo), and provides interactive visualizations of the `stylo` output.
+This application builds on top of the R package [`stylo`](https://github.com/computationalstylistics/stylo), and provides interactive visualizations of stylometric analyses.
 
 ![UI](docs/screenshot.png)
 
