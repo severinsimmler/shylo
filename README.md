@@ -22,5 +22,5 @@ install.packages("networkD3")
 To start the application, `cd` to the folder `app` and run the file `shylo.R`:
 
 ```
-$ Rscript app/shylo.R
+$ Rscript shylo.R
 ```
