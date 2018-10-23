@@ -108,7 +108,7 @@ ui <- fluidPage(
       mainPanel(
         tabsetPanel(
           tabPanel(title = "About",
-                   includeHTML("about.html")),
+                   includeHTML("./about.html")),
           
           tabPanel(title = "Network",
                    simpleNetworkOutput("network")),
